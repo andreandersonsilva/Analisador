@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    
+    <title>Analisador de Números</title>
+</head>
+<body>
+    <header>
+
+        <h1>Analisador de Números</h1>
+
+    </header>
+    
+        <section>
+
+            <div>
+                
+                Número (entre 01 e 100): 
+                <input type="number" name="fnum" id="fnum">
+                <!--Segundo passo, inseri a função do botão, a chamada, agora vou para o JS criar a função-->
+                <input type="button" value="Adicionar" onclick="adicionar()">
+                <!--O size determina a quantidade de linhas do select para determinar a largura eu alterei no CSS apenas com o select, porém 
+                poderia inserir select#flista-->
+                <br><br><select name="flista" id="flista" size="10"></select>
+                <br><br><input type="button" value="Finalizar">
+                <br>
+            </div>
+
+            <!--Aqui eu criei um ID da DIV para inserir o resultado escrito na tela-->
+            <div id="res">
+                
+
+            </div>
+
+            
+        </section>
+        
+        
+        <footer>
+
+            <p><strong>&copy;André Anderson / AMSociais</strong></p>
+
+        </footer>
+
+        <script src="script.js"></script>
+    
+</body>
+</html>
